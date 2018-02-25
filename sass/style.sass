@@ -1,0 +1,29 @@
+.test 
+  background: red
+  height: 100%
+  width: 100%
+  
+.game-row
+  display: flex
+  
+.game-cell
+  $cell-size: 20px
+  width: $cell-size
+  height: $cell-size
+  border: 1px black solid
+  &.alive 
+    background: purple
+  &.dead
+    background: white
+    
+.generation
+  width: 300px
+  font-weight: bold
+  font-size: 1.5em
+
+.grid
+  padding: 15px
+  border: 1px black solid
+  
+.ui
+  margin-top: 15px
