@@ -1,0 +1,28 @@
+{
+  "name": "gameoflife",
+  "version": "1.0.0",
+  "description": "Conway's Game of Life",
+  "main": "entry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/de-passage/game-of-life.coffee.git"
+  },
+  "author": "Sylvain Leclercq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/de-passage/game-of-life.coffee/issues"
+  },
+  "homepage": "https://github.com/de-passage/game-of-life.coffee#readme",
+  "dependencies": {
+    "coffee-loader": "^0.9.0",
+    "coffeescript": "^2.2.2",
+    "webpack": "^4.1.0",
+    "node-sass": "^4.7.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.0.10"
+  }
+}
